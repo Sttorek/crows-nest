@@ -1,7 +1,77 @@
 .App {
-    color: white;
+  color: white;
 }
 
 nav {
-    
+  /* background-color: darkgrey; */
+  height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: auto;
 }
+
+.crowsNest {
+  font-size: 35px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+
+.navSec {
+    margin-top: 25px;
+  position: absolute;
+  right: 150px;
+  display: grid;
+  grid-template-columns: 250px 250px;
+}
+
+.box {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid grey;
+}
+
+/* hovereffect------------------------ */
+.post {
+	display: flex;
+	text-decoration: none;
+	color: inherit;
+	max-width: 400px;
+	position: relative;
+	padding: 2rem;
+	box-shadow: inset 0 0 0 4px #000, inset -4px -4px 0 6px #CCC;
+	background-color: #FFF;
+	cursor: pointer; 
+	&:before {
+		position: absolute; 
+		left: 0;
+		bottom: 0;
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		transform-origin: 0 bottom 0;
+		transform: scaleY(0);
+		transition: .4s ease-out;
+	}
+	
+	&:hover {
+		.post-title {
+			color: #FFF;
+		}
+		&:before {
+			transform: scaleY(1);
+		}
+	}
+}
+
+.post-title {
+	position: relative;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.333;
+	transition: .4s ease-out;
+}
+
+/* ----------------------------------- */
