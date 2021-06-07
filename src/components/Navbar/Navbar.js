@@ -10,10 +10,10 @@ function Navbar() {
       <p className="statement">Project Management Made Easy</p>
       </div>
       <div className='navSec'>
-        <div className='box effect' >Login</div>
-        <div className='box effect'>Account Info</div>
-        <div className='box effect'>About</div>
-        <div className='box effect'>Help</div>
+        <div className='box effect1' >Login</div>
+        <div className='box effect1'>Account Info</div>
+        <div className='box effect1'>About</div>
+        <div className='box effect1'>Help</div>
       </div>
     </nav>
   );

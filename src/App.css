@@ -43,14 +43,15 @@ nav {
   /* background-color: #2f4691; */
 }
 
-.effect {
-  -webkit-transition: 2s;
+.effect1 {
+  -webkit-transition: 1s;
   transition: 1s;
 }
-.effect:hover {
+.effect1:hover {
   background: #2b3856;
   color: white;
   font-size: 18px;
+  transform: scale(1.11);
 }
 /* //////////////////////////////////////////////////////////////////// */
 
@@ -71,6 +72,17 @@ nav {
   position: absolute;
   z-index: 9;
 }
+
+.effect2 {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.effect2:hover {
+    background: #2b3856; 
+     color: white; 
+    transform: scale(1.11); 
+  }
 
 .signUpCnt div {
   font-family: "Courier New", Courier, monospace;

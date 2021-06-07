@@ -4,7 +4,7 @@ import towerImg from "./towerImg.jpg";
 function Homepage() {
   return (
     <section className="homeCnt">
-      <div className="signUpCnt">
+      <div className="signUpCnt effect2">
         <p className="signUpTitle">Sign Up</p>
 
         <div className="input-group input-group-sm mb-3">
