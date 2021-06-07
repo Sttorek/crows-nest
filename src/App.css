@@ -51,7 +51,6 @@ nav {
   background: #2b3856;
   color: white;
   font-size: 18px;
-  transform: scale(1.11);
 }
 /* //////////////////////////////////////////////////////////////////// */
 
@@ -79,10 +78,8 @@ nav {
 }
 
 .effect2:hover {
-    background: #2b3856; 
-     color: white; 
-    transform: scale(1.11); 
-  }
+  transform: scale(1.11);
+}
 
 .signUpCnt div {
   font-family: "Courier New", Courier, monospace;

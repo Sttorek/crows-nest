@@ -71,7 +71,7 @@ function Homepage() {
           className="form-select selectMe"
           aria-label="Default select example"
         >
-          <option selected>Role</option>
+          <option selected>Role(Choose One)</option>
           <option value="1">Management</option>
           <option value="2">Employee</option>
         </select>
