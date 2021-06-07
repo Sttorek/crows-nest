@@ -2,8 +2,6 @@
   color: white;
 }
 
-
-
 /* -------------------- Navbar Component ---------------------------- */
 nav {
   /* background-color: darkgrey; */
@@ -14,14 +12,18 @@ nav {
 }
 
 .crowsNest {
-  font-size: 35px;
+  font-family: "Zen Dots", cursive;
+  font-size: 25px;
   margin-left: 80px;
   text-align: center;
+  margin-top: 55px;
+}
+.crowsNest span {
+    font-size: 49px;
 }
 
-
 .navSec {
-    margin-top: 25px;
+  margin-top: 25px;
   position: absolute;
   right: 150px;
   display: grid;
@@ -32,16 +34,16 @@ nav {
   text-align: center;
   padding: 30px;
   border: 1px solid grey;
-  background-color: 	#171717;
+  background-color: #171717;
 }
 
 .effect {
-    -webkit-transition: 2s; 
-    transition: 1.5s; 
+  -webkit-transition: 2s;
+  transition: 1.5s;
 }
 .effect:hover {
-    background: #303030;
-    color: #32CD32;
-    font-size: 18px;
+  background: #303030;
+  color: #32cd32;
+  font-size: 18px;
 }
 /* //////////////////////////////////////////////////////////////////// */

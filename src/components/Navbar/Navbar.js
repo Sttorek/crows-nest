@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav>
       <div className='crowsNest'>
-      <h1>Crows <br/> Nest</h1>
+      <h1><span>C</span>ro<span>w</span>'s <span>N</span>est</h1>
       </div>
       <div className='navSec'>
         <div className='box effect' >Login</div>
