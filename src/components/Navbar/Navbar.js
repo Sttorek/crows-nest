@@ -7,6 +7,7 @@ function Navbar() {
     <nav>
       <div className='crowsNest'>
       <h1><span>C</span>ro<span>w</span>'s <span>N</span>est</h1>
+      <p className="statement">Project Management Made Easy</p>
       </div>
       <div className='navSec'>
         <div className='box effect' >Login</div>

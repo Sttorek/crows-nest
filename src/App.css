@@ -1,5 +1,5 @@
 .App {
-  color: white;
+  font-family: "Zen Dots", cursive;
 }
 
 /* -------------------- Navbar Component ---------------------------- */
@@ -14,12 +14,16 @@ nav {
 .crowsNest {
   font-family: "Zen Dots", cursive;
   font-size: 25px;
-  margin-left: 80px;
+  margin-left: 100px;
   text-align: center;
   margin-top: 55px;
 }
 .crowsNest span {
   font-size: 49px;
+}
+
+.statement {
+  font-size: 20px;
 }
 
 .navSec {
@@ -28,22 +32,24 @@ nav {
   right: 150px;
   display: grid;
   grid-template-columns: 250px 250px;
+  box-shadow: 5px 2px 8px 1px grey;
 }
 
 .box {
+  font-family: "Zen Dots", cursive;
   text-align: center;
   padding: 20px;
   border: 1px solid grey;
-  background-color: #171717;
+  /* background-color: #2f4691; */
 }
 
 .effect {
   -webkit-transition: 2s;
-  transition: 1.5s;
+  transition: 1s;
 }
 .effect:hover {
-  background: #303030;
-  color: #32cd32;
+  background: #2b3856;
+  color: white;
   font-size: 18px;
 }
 /* //////////////////////////////////////////////////////////////////// */
@@ -53,6 +59,7 @@ nav {
 .signUpCnt {
   background-color: white;
   color: black;
+  box-shadow: 0px 0px 5px 2px grey;
   width: 400px;
   height: fit-content;
   padding: 35px;
@@ -60,14 +67,23 @@ nav {
   margin-left: 200px;
   margin-top: 160px;
   margin-bottom: 100px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   position: absolute;
   z-index: 9;
+}
+
+.signUpCnt div {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .signUpTitle {
   font-size: 30px;
   margin-bottom: 15px;
+}
+
+.selectMe {
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .signUpBtn {
@@ -78,14 +94,14 @@ nav {
 .homeImgCnt {
   position: absolute;
   margin-top: 100px;
-  margin-left: 406px;
+  margin-left: 390px;
 }
 
 .homeImg {
   width: 1000px;
   height: 600px;
   object-fit: cover;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin-bottom: 100px;
 }
 

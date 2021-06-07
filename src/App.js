@@ -7,7 +7,7 @@ import Homepage from './Pages/Homepage/Homepage'
 function App() {
   return (
     <div className="App">
-       <style>{'body { background-color: #141414 }'}</style>
+       {/* <style>{'body { background-color: #141414 }'}</style> */}
      <Navbar />
 
      <Router>
