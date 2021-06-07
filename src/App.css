@@ -2,6 +2,9 @@
   color: white;
 }
 
+
+
+/* -------------------- Navbar Component ---------------------------- */
 nav {
   /* background-color: darkgrey; */
   height: 200px;
@@ -29,49 +32,16 @@ nav {
   text-align: center;
   padding: 30px;
   border: 1px solid grey;
+  background-color: 	#171717;
 }
 
-/* hovereffect------------------------ */
-.post {
-	display: flex;
-	text-decoration: none;
-	color: inherit;
-	max-width: 400px;
-	position: relative;
-	padding: 2rem;
-	box-shadow: inset 0 0 0 4px #000, inset -4px -4px 0 6px #CCC;
-	background-color: #FFF;
-	cursor: pointer; 
-	&:before {
-		position: absolute; 
-		left: 0;
-		bottom: 0;
-		content: "";
-		display: block;
-		width: 100%;
-		height: 100%;
-		background-color: #000;
-		transform-origin: 0 bottom 0;
-		transform: scaleY(0);
-		transition: .4s ease-out;
-	}
-	
-	&:hover {
-		.post-title {
-			color: #FFF;
-		}
-		&:before {
-			transform: scaleY(1);
-		}
-	}
+.effect {
+    -webkit-transition: 2s; 
+    transition: 1.5s; 
 }
-
-.post-title {
-	position: relative;
-	font-size: 2rem;
-	font-weight: 700;
-	line-height: 1.333;
-	transition: .4s ease-out;
+.effect:hover {
+    background: #303030;
+    color: #32CD32;
+    font-size: 18px;
 }
-
-/* ----------------------------------- */
+/* //////////////////////////////////////////////////////////////////// */

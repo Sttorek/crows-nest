@@ -9,10 +9,10 @@ function Navbar() {
       <h1>Crows <br/> Nest</h1>
       </div>
       <div className='navSec'>
-        <div className='box' >Login</div>
-        <div className='box'>Account Info</div>
-        <div className='box'>About</div>
-        <div className='box'>Help</div>
+        <div className='box effect' >Login</div>
+        <div className='box effect'>Account Info</div>
+        <div className='box effect'>About</div>
+        <div className='box effect'>Help</div>
       </div>
     </nav>
   );
